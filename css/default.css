@@ -7161,8 +7161,7 @@ p a, .border-link {
 
 .navbar .navbar-brand {
   font-size: 1.5rem;
-  font-weight: 900;
-  text-transform: uppercase; }
+  font-weight: 900; }
 
 .navbar .navbar-nav .nav-item {
   margin: 0 .7rem; }
