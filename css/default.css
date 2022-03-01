@@ -8,6 +8,11 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --blue: #0000ff;
   --indigo: #3d5afe;
