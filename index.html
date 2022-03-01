@@ -18,6 +18,7 @@
 
         <!-- Tailwind CSS-->
         <link href="dist/output.css" rel="stylesheet">
+        
     </head>
     <body>
 
@@ -99,8 +100,25 @@
                     </div>
                 </div>
 
+                <!-- Language Support -->
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-1 my-md-auto">
+                        <h3>Multi-lingual Interface</h3>
+                        <p class="text-muted lead">
+                            Support for non-english languages such as Spanish.
+                        </p>
+                        <a href="#" class="">Learn more</a>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="img/twitter-mobile.jpeg" class="img-fluid d-block mx-auto" alt="Twitter Mobile"/>
+                    </div>
+                </div>
+
                 <!-- Cross Platform -->
                 <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/twitter-mobile.jpeg" class="img-fluid d-block mx-auto" alt="Twitter Mobile"/>
+                    </div>
                     <div class="col-md-6 order-2 order-md-1 my-md-auto">
                         <h3>Cross Platform</h3>
                         <p class="text-muted lead">
@@ -108,9 +126,6 @@
                             (Android is available. iOS in Beta)
                         </p>
                         <a href="#" class="">Learn more</a>
-                    </div>
-                    <div class="col-md-6 order-1 order-md-2">
-                        <img src="img/twitter-mobile.jpeg" class="img-fluid d-block mx-auto" alt="Twitter Mobile"/>
                     </div>
                 </div>
             </div>
@@ -233,5 +248,10 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).scrollTop(0);
+            });
+        </script>
     </body>
 </html>
