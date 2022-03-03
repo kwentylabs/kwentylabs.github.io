@@ -71,7 +71,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 
-.un:focus, .pass:focus {
+.un:focus::placeholder, .pass:focus::placeholder {
     color:transparent;
 }
 
