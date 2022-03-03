@@ -64,6 +64,10 @@ margin-bottom: 27px;
 font-family: 'Ubuntu', sans-serif;
 }
 
+input::placeholder {
+    color: rgb(175, 170, 169) ;
+    font-weight: 100;
+}
 
 .un, .pass {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
@@ -74,8 +78,6 @@ font-family: 'Ubuntu', sans-serif;
 .un:focus::placeholder, .pass:focus::placeholder {
     color:transparent;
 }
-
-
 
 .submit {
   cursor: pointer;
