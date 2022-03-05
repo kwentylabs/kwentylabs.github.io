@@ -275,3 +275,12 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+.project-Desc-tile {
+    text-align: right;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+}
